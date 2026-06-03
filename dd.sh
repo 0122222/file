@@ -1,0 +1,1 @@
+dd if=/dev/sda conv=sync,noerror bs=64K | gzip -c  > /dev/shm/ubuntu24.04.img.gz
